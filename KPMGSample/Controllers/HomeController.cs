@@ -12,12 +12,5 @@ namespace KPMGSample.Controllers
         {
             return View();
         }
-
-        public ActionResult Reports()
-        {
-            ViewBag.Message = "PowerBi Reports";
-
-            return View();
-        }
     }
 }
